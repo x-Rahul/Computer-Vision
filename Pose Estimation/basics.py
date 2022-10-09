@@ -4,7 +4,7 @@ import time
 mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
-path = 'D:\Programming\Python_Tutorials\Resources\Videos\dance.mp4'
+path = 'Resources/Videos/dance.mp4'
 cap = cv2.VideoCapture(path)
 pTime = 0
 while True:
